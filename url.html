@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>URL Safety Scanner - CyberGuard</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<div class="logo">CyberGuard</div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="password.html">Password</a></li>
+<li><a href="phishing.html">Phishing</a></li>
+<li><a href="url.html">URL Scanner</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<div class="tool-container">
+
+<h1>🌐 URL Safety Scanner</h1>
+
+<div class="browser-bar">
+
+<span class="browser-icon">🌐</span>
+
+<input
+type="text"
+id="urlInput"
+placeholder="https://example.com">
+
+</div>
+
+<button onclick="scanURL()">
+Scan URL
+</button>
+<div class="scan-progress">
+
+<div id="urlScanBar"></div>
+
+</div>
+<h2 id="urlStatus"></h2>
+
+<h3 id="urlScore"></h3>
+
+<div id="urlReport"></div>
+
+</div>
+
+<script src="url.js"></script>
+<div class="page-navigation">
+    <a href="phishing.html" class="nav-btn">⬅ Previous</a>
+    <a href="contact.html" class="nav-btn">Next ➜</a>
+</div>
+</body>
+</html><div class="loader" id="loader"></div><li><a href="url.html" class="active">URL Scanner</a></li>
